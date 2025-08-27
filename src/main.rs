@@ -1,3 +1,5 @@
+use hello::*;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{}, {}", sqrt(42.0), isqrt(42));
 }
